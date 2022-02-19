@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,500;1,100;1,300&display=swap");
+:root {
+	--dark-color: rgb(72, 60, 50);
+	--light-color: rgb(240, 230, 140);
+}
 
 * {
 	margin: 0;
@@ -8,8 +12,9 @@
 
 body {
 	font-family: "Sarabun", sans-serif;
-	background-color: rgb(112, 128, 144);
+	background-color: var(--dark-color);
 	text-align: center;
+	color: var(--light-color);
 }
 
 .container {
